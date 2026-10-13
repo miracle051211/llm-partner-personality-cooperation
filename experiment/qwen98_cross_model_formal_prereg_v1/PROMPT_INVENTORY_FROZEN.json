@@ -1,0 +1,25 @@
+{
+  "source": "experiment/runs/pilot/formal_stage2_28agents_primary_strategy_v1/run_formal_stage2.py",
+  "source_sha256": "3f46b73f9222ab2a6b6a2fa593b4d3f372dcd4360e6882789e164643ae2f441a",
+  "rationale_prompt": "Your decision for this round has already been recorded and cannot be changed.\n\nPlease briefly explain the main reason for the decision you just made.\n\nBase your answer only on the information that was available to you when you made that decision.\n\nDo not discuss future rounds.\n\nAnswer in 1–3 sentences.",
+  "rationale_prompt_sha256": "a357c2868ca7cfade34eb29f067069f2c0494e5c6ceb42c7b69da17ed34390cd",
+  "primary_intro": "Your decision and explanation for this round have already been recorded and cannot be changed.\n\nWhich ONE of the following statements most accurately describes the MAIN decision rule you used when making that decision?\n\nEven if more than one consideration was relevant, choose the single statement that best describes your main decision rule.\n\nReply with the number of the ONE statement that best describes your main decision rule. Do not provide any additional explanation.",
+  "primary_intro_sha256": "01903afa268fbe5d273ec53d335556103475eff6a9cf757e9d347e95dba1dfc5",
+  "primary_item_text": {
+    "S1": "My contribution moved in the same direction as what I expected from my partner: expecting more contribution from my partner pushed me toward contributing more, while expecting less pushed me toward contributing less.",
+    "S2": "When my own private payoff and the combined outcome for both players were in tension, I mainly prioritized protecting or increasing my own private payoff.",
+    "S3": "Because I was uncertain about how much my partner would contribute, I avoided a particularly high or particularly low contribution and chose a more moderate option.",
+    "S4": "I was willing to give up some private payoff I could otherwise have kept in order to improve the combined outcome for both players.",
+    "S5": "Because I expected my partner to contribute relatively more, I reduced my own contribution compared with what I otherwise would have contributed.",
+    "S6": "None of the five decision rules above accurately describes the main rule I used for this decision."
+  },
+  "primary_item_text_sha256": "ada537535243422ac69ffd55b239565c151a3a506fcd5695e05bd0482dd6ec08",
+  "primary_strategy_categories": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+  ]
+}

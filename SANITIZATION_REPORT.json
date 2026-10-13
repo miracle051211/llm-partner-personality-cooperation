@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "files_scanned_before_copy": 85,
+  "redacted_files": [
+    {
+      "source_path": "PUBLISHED_BENCHMARK_REPRODUCTION/build_reproduction_package.py",
+      "changes": [
+        {
+          "category": "private_workspace_root",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source_path": "experiment/qwen98_cross_model_formal_prereg_v1/03_QWEN98_DEEPSEEK98_PARTICIPANT_MAP.csv",
+      "changes": [
+        {
+          "category": "private_workspace_root",
+          "count": 196
+        }
+      ]
+    },
+    {
+      "source_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/measurement/formal_bfi44_scores.csv",
+      "changes": [
+        {
+          "category": "private_workspace_root",
+          "count": 98
+        }
+      ]
+    },
+    {
+      "source_path": "experiment/shared_pipeline/paths.py",
+      "changes": [
+        {
+          "category": "private_external_library_path",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "checks": [
+    "provider key patterns",
+    "quoted credential assignments",
+    "private-key headers",
+    "Bearer credentials",
+    "private workspace and external library paths",
+    "email addresses"
+  ],
+  "excluded": [
+    "actual .env files",
+    "API logs",
+    "caches",
+    "pilot data",
+    "experimental extensions",
+    "author/title/cover files"
+  ],
+  "limitations": "Pattern-based inspection cannot prove the absence of every possible credential; no secrets are reproduced in this report."
+}

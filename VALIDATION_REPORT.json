@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checks_total": 586,
+  "failed_checks": [],
+  "summaries": {
+    "DeepSeek": {
+      "rows": 3528,
+      "instances": 98,
+      "noinfo_mean": 3.6700680272108843,
+      "visible_mean": 3.897278911564626,
+      "instance_delta": 0.22721088435374148,
+      "instance_S1_delta": 0.6170068027210885,
+      "expectation_counts": {
+        "EXP_NONE": 1417,
+        "EXP_UNCOOP": 1089,
+        "EXP_COOP": 951,
+        "EXP_UNCLEAR": 71
+      }
+    },
+    "Qwen": {
+      "rows": 3528,
+      "instances": 98,
+      "noinfo_mean": 1.5578231292517006,
+      "visible_mean": 2.4612244897959186,
+      "instance_delta": 0.9034013605442177,
+      "instance_S1_delta": 0.5772108843537416,
+      "expectation_counts": {
+        "EXP_NONE": 1852,
+        "EXP_UNCOOP": 927,
+        "EXP_COOP": 626,
+        "EXP_UNCLEAR": 123
+      }
+    },
+    "GPT-5.6 Terra": {
+      "rows": 3528,
+      "instances": 98,
+      "noinfo_mean": 1.1734693877551021,
+      "visible_mean": 1.1010204081632653,
+      "instance_delta": -0.07244897959183677,
+      "instance_S1_delta": 0.06326530612244897,
+      "expectation_counts": {
+        "EXP_NONE": 2735,
+        "EXP_COOP": 392,
+        "EXP_UNCOOP": 351,
+        "EXP_UNCLEAR": 50
+      }
+    }
+  },
+  "limits": [
+    "No API calls or study generation",
+    "No bootstrap, p-value, OLS or figure rerun",
+    "Expectation labels treated as frozen observations; coding validity not independently verified",
+    "Checks reproduce descriptive point estimates and label counts, not complete statistical inference"
+  ]
+}

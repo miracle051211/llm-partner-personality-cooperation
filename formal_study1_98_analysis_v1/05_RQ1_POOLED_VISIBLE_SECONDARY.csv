@@ -1,0 +1,2 @@
+contrast,estimate,bootstrap_SE,bootstrap_95CI_low,bootstrap_95CI_high,n_participants,interpretation
+Visible_minus_NoInfo,0.22721088435374148,0.11901992969402174,0.0006717687074829938,0.4683673469387755,98,Average across sampled visible contents; not a pure content-independent visibility effect.

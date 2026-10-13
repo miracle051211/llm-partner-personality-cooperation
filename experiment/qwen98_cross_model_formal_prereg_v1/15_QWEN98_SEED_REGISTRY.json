@@ -1,0 +1,27 @@
+{
+  "run_id": "qwen98_cross_model_formal_prereg_v1",
+  "status": "FROZEN_PRE_RUN",
+  "inherited_structures": {
+    "session_membership": "DeepSeek Formal98 frozen; no new seed",
+    "treatment_order": 20261006,
+    "matching_topology": 20261007,
+    "strategy_option_order": "DeepSeek Formal98 realized order; inherited per matched source_profile × treatment × round"
+  },
+  "qwen_specific": {
+    "tie_break": 20261015,
+    "bootstrap_cross_model": 20261018,
+    "human_agreement_audit": 20261019
+  },
+  "cross_model_controls": {
+    "strategy_option_order": "EXACT_MATCH_TO_DEEPSEEK_FORMAL98",
+    "crosswalk_file": "STRATEGY_OPTION_ORDER_MATCH_FREEZE.csv",
+    "crosswalk_rows": 3528,
+    "independent_qwen_strategy_order_generation": false
+  },
+  "notes": [
+    "Qwen measured score ties use a distinct deterministic tie-break seed.",
+    "No independent Qwen strategy display-order seed is generated.",
+    "Each Qwen matched trial reuses the exact realized six-option order from the authoritative DeepSeek trial.",
+    "Seeds and control rules are frozen before Qwen execution; no result-dependent reseeding."
+  ]
+}

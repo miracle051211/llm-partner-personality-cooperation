@@ -1,0 +1,4 @@
+﻿model,n_agents,mean_delta,sd_delta,up_n,same_n,down_n,mean_delta_p_S1,paired_contribution_delta_pearson_r,paired_direction_agreement_n,paired_direction_agreement_proportion
+DeepSeek,98,0.2272108843537415,1.208336325994877,43.0,2.0,53.0,0.6170068027210884,,,
+Qwen,98,0.9034013605442178,1.7773004858741872,72.0,12.0,14.0,0.5772108843537416,,,
+Paired source-profile correlation,98,,,,,,,0.03691438769158739,41.0,0.41836734693877553

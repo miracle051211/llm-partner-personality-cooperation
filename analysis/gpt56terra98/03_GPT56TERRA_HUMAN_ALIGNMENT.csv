@@ -1,0 +1,16 @@
+﻿domain,trait,trait_name,human_estimate,human_direction,terra_estimate,terra_se,terra_ci_low,terra_ci_high,terra_direction,direction_match,comparison_boundary,term
+continuous_rank_highness,A,Agreeableness,-0.276,negative,-0.343179073518073,0.033302731843396334,-0.408451228517925,-0.27790691851822097,negative,True,direction_only; human random-effects Tobit vs Terra clustered OLS,
+continuous_rank_highness,O,Openness,-0.19,negative,-0.054821068178346456,0.022494915229172737,-0.09891029186280659,-0.010731844493886318,negative,True,direction_only; human random-effects Tobit vs Terra clustered OLS,
+continuous_rank_highness,C,Conscientiousness,-0.06,negative,-0.24036779983606027,0.03218297586125069,-0.30344527343943356,-0.17729032623268698,negative,True,direction_only; human random-effects Tobit vs Terra clustered OLS,
+continuous_rank_highness,N,Neuroticism,0.086,positive,0.05105239970614811,0.024714938227676998,0.0026120108997690003,0.09949278851252721,positive,True,direction_only; human random-effects Tobit vs Terra clustered OLS,
+continuous_rank_highness,E,Extraversion,-0.045,negative,-0.0388675729020421,0.030740208363815365,-0.09911727417237715,0.02138212836829296,negative,True,direction_only; human random-effects Tobit vs Terra clustered OLS,
+rank_bin_high_reference,A,Agreeableness,-0.496,negative,-1.8274036158016296,0.41568426496681127,-2.6421298040765846,-1.0126774275266746,negative,True,rank structure/direction only; no coefficient equality,Group2
+rank_bin_high_reference,A,Agreeableness,-2.753,negative,-3.0958221683895006,0.3086672178665881,-3.7007987986161917,-2.4908455381628096,negative,True,rank structure/direction only; no coefficient equality,Group3
+rank_bin_high_reference,O,Openness,0.063,positive,0.0409583081521107,0.2773115473757809,-0.5025623372014928,0.5844789535057141,positive,True,rank structure/direction only; no coefficient equality,Group2
+rank_bin_high_reference,O,Openness,-1.951,negative,-0.6125089277866385,0.22307216769243612,-1.0497223424170927,-0.17529551315618425,negative,True,rank structure/direction only; no coefficient equality,Group3
+rank_bin_high_reference,C,Conscientiousness,0.039,positive,-1.3252738835265463,0.37305026736427926,-2.056438971983572,-0.594108795069521,negative,False,rank structure/direction only; no coefficient equality,Group2
+rank_bin_high_reference,C,Conscientiousness,-0.54,negative,-2.246852625194214,0.3063039337264925,-2.8471973036210825,-1.646507946767345,negative,True,rank structure/direction only; no coefficient equality,Group3
+rank_bin_high_reference,N,Neuroticism,-0.055,negative,0.11739098887250216,0.2217506804848236,-0.31723235842500114,0.5520143361700054,positive,False,rank structure/direction only; no coefficient equality,Group2
+rank_bin_high_reference,N,Neuroticism,0.735,positive,0.3699539391339894,0.24048821589827146,-0.1013943027329155,0.8413021810008943,positive,True,rank structure/direction only; no coefficient equality,Group3
+rank_bin_high_reference,E,Extraversion,-1.299,negative,-0.005766158621295564,0.32821273415091556,-0.6490512968245096,0.6375189795819184,negative,True,rank structure/direction only; no coefficient equality,Group2
+rank_bin_high_reference,E,Extraversion,-0.47,negative,-0.4017923098529196,0.2972842497847417,-0.9844587326020227,0.1808741128961835,negative,True,rank structure/direction only; no coefficient equality,Group3

@@ -1,0 +1,2 @@
+﻿model,n_participants,noinfo_mean,visible_mean,delta_visible_minus_noinfo,bootstrap_ci_low,bootstrap_ci_high,paired_t,paired_t_p,bootstrap_seed,bootstrap_reps
+GPT-5.6 Terra,98,1.1734693877551021,1.1010204081632655,-0.07244897959183677,-0.33164115646258513,0.18266156462585023,-0.5367901421240928,0.5926416739358706,20261005,5000

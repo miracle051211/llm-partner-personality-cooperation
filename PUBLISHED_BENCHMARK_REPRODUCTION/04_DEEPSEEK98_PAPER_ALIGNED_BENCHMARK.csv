@@ -1,0 +1,6 @@
+trait,analysis_type,contrast,estimate,SE,CI_low,CI_high,p,n_trials,n_participants,specification
+A,continuous_rank,rank_highness slope (7.5 - numeric rank),0.15175300889586368,0.020098287698760695,0.11236036500629272,0.19114565278543466,4.334433840019253e-14,588,98,paper-aligned reduced OLS with round/session fixed effects; clustered by participant
+O,continuous_rank,rank_highness slope (7.5 - numeric rank),-0.012506541077969575,0.02032386470830411,-0.05234131590624563,0.02732823375030648,0.5383154520592314,588,98,paper-aligned reduced OLS with round/session fixed effects; clustered by participant
+C,continuous_rank,rank_highness slope (7.5 - numeric rank),0.111041339612768,0.01966288698463532,0.07250208112288278,0.14958059810265323,1.6302979225634917e-08,588,98,paper-aligned reduced OLS with round/session fixed effects; clustered by participant
+N,continuous_rank,rank_highness slope (7.5 - numeric rank),-0.05766614338042929,0.018732650687552782,-0.09438213872803275,-0.020950148032825834,0.0020813208660384777,588,98,paper-aligned reduced OLS with round/session fixed effects; clustered by participant
+E,continuous_rank,rank_highness slope (7.5 - numeric rank),-0.060962846677134835,0.016715466550409036,-0.09372516111593654,-0.028200532238333124,0.0002652248361227107,588,98,paper-aligned reduced OLS with round/session fixed effects; clustered by participant

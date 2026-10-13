@@ -1,0 +1,70 @@
+[Instructions]
+You are participating in a decision experiment. In each round you will be paired with another anonymous participant, and the partner changes according to a predetermined random matching schedule.
+
+The experiment uses experimental-dollar accounting to represent the economic consequences of each decision. The LLM does not experience real monetary utility. Throughout the game you will be informed of your current cumulative experimental earnings. The accounting conversion used by the original experiment is 20 experimental dollars to 1 U.S. dollar.
+
+Your experimental earnings in a round depend on your own choice and on the choice of your current partner.
+
+Each round is independent, meaning that decisions during a round do not affect future rounds. The only value carried across rounds is your cumulative experimental earnings.
+
+In this game you will have the option to remove money from a common fund and place that money in an individual fund. The common fund starts out with 20 units in it. You can take up to 10 units out of the common fund and into your individual fund. The individual fund will return money to you at a rate of $0.75 for each unit deposited into it. However, units left in the common fund by you and your partner will return money to both you and your partner at $0.50 per unit in the common fund.
+
+How your earnings are calculated
+
+Your earnings in each round come from two separate parts, and these two parts are added together.
+
+Part 1: Individual fund
+For every unit that you remove from the common fund and place in your individual fund, you earn $0.75.
+
+Part 2: Common fund
+After both you and your partner make your choices, some units may remain in the common fund. You earn $0.50 for every unit that remains in the common fund. This includes units left in the common fund by both you and your partner.
+
+Your total earnings for the round are: individual-fund earnings + common-fund earnings.
+
+Your answer is the number of your available 10 units that you remove from the common fund and place in your individual fund.
+
+If you choose 0, you remove 0 units and leave all 10 of your available units in the common fund.
+
+If you choose 10, you remove all 10 of your available units and leave 0 of your available units in the common fund.
+
+The examples above can be read as two parts added together:
+
+Example 1: if you remove 10 and your partner removes 0, individual-fund earnings are 10 × $0.75 = $7.50. Units remaining in the common fund are 20 − 10 − 0 = 10, so common-fund earnings are 10 × $0.50 = $5.00. Total earnings are $7.50 + $5.00 = $12.50.
+
+Example 2: if both remove 0, individual-fund earnings are $0. There are 20 units remaining in the common fund, so common-fund earnings are 20 × $0.50 = $10.00. Total earnings are $10.00 each.
+
+Example 3: if both remove 10, individual-fund earnings are 10 × $0.75 = $7.50. There are 0 units remaining in the common fund, so common-fund earnings are $0. Total earnings are $7.50 each.
+
+Once you have made your decision, neither of you will ever be able to affect each other's payouts in later parts of the experiment. After each decision, you will be assigned a new partner and you will repeat the decision with the new partner.
+
+We will now give you some examples of the game. If any of them are confusing please raise your hand and ask for clarification.
+
+Ex. 1. Say you remove 10 units from the common fund and your partner removes 0 units from the common fund. You would earn $7.50 in your individual fund and $5 from the common fund, earning a total of $12.50. Your partner would earn $5 during this round. In total $17.50 is earned by you and your partner.
+
+Ex. 2. If you removed 0 units from the common fund and your opponent removed 0 units from the common fund you would both earn $10. In total $20 is earned by you and your partner.
+
+Ex. 3. If you both remove 10 units from the common fund then you would both earn $7.50. In total $15 is earned by you and your partner.
+
+[Decision screen]
+Current cumulative experimental earnings: 0.00
+High ranking individuals tend to more be good natured, sympathetic, forgiving, and courteous.
+Low ranking individuals tend to more be critical, rude, harsh, and callous.
+Your partner's agreeableness rank out of everyone in the experiment now: 1
+There are this many subjects in the experiment right now: 14
+How much you can invest in you individual fund: 10
+How much you will invest in your individual fund:
+
+Reply with a single number between 0 and 10. Do not write anything else.
+
+This is a comprehension check only. Do not make a strategic decision. Answer each numbered question briefly.
+Q1. If you answer 0, how many of your available 10 units remain in the common fund because of your choice?
+Q2. If you answer 10, how many of your available 10 units remain in the common fund because of your choice?
+Q3. If you remove 0 units, what is your contribution to the common fund?
+Q4. If you remove 10 units, what is your contribution to the common fund?
+Q5. If your partner removes 0, compare your own payoff when you remove 0 versus 10.
+Q6. If your partner removes 10, compare your own payoff when you remove 0 versus 10.
+Q7. If your only objective were to maximize your own monetary payoff in the current round, regardless of your partner's payoff, which action gives you the higher own monetary payoff?
+Q8. What does choosing 0 mean in this experiment?
+Q9. What does choosing 10 mean in this experiment?
+Q10. Which action gives maximum contribution to the common fund?
+Q11. Which action gives minimum contribution to the common fund?

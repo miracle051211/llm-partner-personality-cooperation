@@ -1,0 +1,790 @@
+{
+  "scope": "MGS formal three-model 98-instance study only",
+  "files": [
+    {
+      "source_path": "PUBLISHED_BENCHMARK_REPRODUCTION/04_05_RANK_BIN_PAPER_ALIGNED_ALL.csv",
+      "package_path": "PUBLISHED_BENCHMARK_REPRODUCTION/04_05_RANK_BIN_PAPER_ALIGNED_ALL.csv",
+      "source_sha256": "2ddd767470844a6ba83fb4fa13cf153918cafaa34c57006558b8ae9d93359015",
+      "package_sha256": "2ddd767470844a6ba83fb4fa13cf153918cafaa34c57006558b8ae9d93359015",
+      "source_size_bytes": 4555,
+      "package_size_bytes": 4555,
+      "redactions": []
+    },
+    {
+      "source_path": "PUBLISHED_BENCHMARK_REPRODUCTION/04_DEEPSEEK98_PAPER_ALIGNED_BENCHMARK.csv",
+      "package_path": "PUBLISHED_BENCHMARK_REPRODUCTION/04_DEEPSEEK98_PAPER_ALIGNED_BENCHMARK.csv",
+      "source_sha256": "20fc6d9c47fe58bb3d53317e0648234aa56d1fbdf9d3a2c6668f20ed1c5ca654",
+      "package_sha256": "20fc6d9c47fe58bb3d53317e0648234aa56d1fbdf9d3a2c6668f20ed1c5ca654",
+      "source_size_bytes": 1378,
+      "package_size_bytes": 1378,
+      "redactions": []
+    },
+    {
+      "source_path": "PUBLISHED_BENCHMARK_REPRODUCTION/05_QWEN98_PAPER_ALIGNED_BENCHMARK.csv",
+      "package_path": "PUBLISHED_BENCHMARK_REPRODUCTION/05_QWEN98_PAPER_ALIGNED_BENCHMARK.csv",
+      "source_sha256": "10473b2b39728166b7f6fbe001983de40f000b7bbebdc7fc2295207aa9fb79d6",
+      "package_sha256": "10473b2b39728166b7f6fbe001983de40f000b7bbebdc7fc2295207aa9fb79d6",
+      "source_size_bytes": 1364,
+      "package_size_bytes": 1364,
+      "redactions": []
+    },
+    {
+      "source_path": "PUBLISHED_BENCHMARK_REPRODUCTION/build_reproduction_package.py",
+      "package_path": "PUBLISHED_BENCHMARK_REPRODUCTION/build_reproduction_package.py",
+      "source_sha256": "a5f8b4fc82a9a2f20cf713415816a839dc69fb45ba1ec0b25d6535895dcd0404",
+      "package_sha256": "fa3483ee6902d57c3c852cae3a9a013e56eef25e8631aaf5d51dc41a53c3d942",
+      "source_size_bytes": 32206,
+      "package_size_bytes": 32168,
+      "redactions": [
+        {
+          "category": "private_workspace_root",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source_path": "analysis/gpt56terra98/01_GPT56TERRA_OVERALL_EFFECT.csv",
+      "package_path": "analysis/gpt56terra98/01_GPT56TERRA_OVERALL_EFFECT.csv",
+      "source_sha256": "6916b8995a096dd5f95e219666b434ecf38fbc8ee8a004b4786697a3d1aff0bb",
+      "package_sha256": "6916b8995a096dd5f95e219666b434ecf38fbc8ee8a004b4786697a3d1aff0bb",
+      "source_size_bytes": 333,
+      "package_size_bytes": 333,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/02_GPT56TERRA_15CELL_EFFECTS.csv",
+      "package_path": "analysis/gpt56terra98/02_GPT56TERRA_15CELL_EFFECTS.csv",
+      "source_sha256": "c57955b86563011abb6d0f77da55097fffd59b1737c3d804b7034f9765656851",
+      "package_sha256": "c57955b86563011abb6d0f77da55097fffd59b1737c3d804b7034f9765656851",
+      "source_size_bytes": 4797,
+      "package_size_bytes": 4797,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/03_GPT56TERRA_HUMAN_ALIGNMENT.csv",
+      "package_path": "analysis/gpt56terra98/03_GPT56TERRA_HUMAN_ALIGNMENT.csv",
+      "source_sha256": "d3508e8d1fc9c1427e8d02af2ad59919d6cd925434090a54acfb509f4e5ddc7c",
+      "package_sha256": "d3508e8d1fc9c1427e8d02af2ad59919d6cd925434090a54acfb509f4e5ddc7c",
+      "source_size_bytes": 3376,
+      "package_size_bytes": 3376,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/03_GPT56TERRA_HUMAN_ALIGNMENT_RANK_HIGHNESS.csv",
+      "package_path": "analysis/gpt56terra98/03_GPT56TERRA_HUMAN_ALIGNMENT_RANK_HIGHNESS.csv",
+      "source_sha256": "202ac27220ff87aa7adf23b3db5f700422190cd0eba470de8f19abe3253fb00c",
+      "package_sha256": "202ac27220ff87aa7adf23b3db5f700422190cd0eba470de8f19abe3253fb00c",
+      "source_size_bytes": 6736,
+      "package_size_bytes": 6736,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/04_GPT56TERRA_EXPECTATION_DISTRIBUTION.csv",
+      "package_path": "analysis/gpt56terra98/04_GPT56TERRA_EXPECTATION_DISTRIBUTION.csv",
+      "source_sha256": "c17e89398209cc5ac7ade0f095e1b4e7a3a450faa0466c794b5ace61271b4146",
+      "package_sha256": "c17e89398209cc5ac7ade0f095e1b4e7a3a450faa0466c794b5ace61271b4146",
+      "source_size_bytes": 4971,
+      "package_size_bytes": 4971,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/05_GPT56TERRA_STRATEGY_DISTRIBUTION.csv",
+      "package_path": "analysis/gpt56terra98/05_GPT56TERRA_STRATEGY_DISTRIBUTION.csv",
+      "source_sha256": "2325054e033a43997bcaa1e747a2a649297025c79d9c5447351d3e16a2e471eb",
+      "package_sha256": "2325054e033a43997bcaa1e747a2a649297025c79d9c5447351d3e16a2e471eb",
+      "source_size_bytes": 633,
+      "package_size_bytes": 633,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/05_GPT56TERRA_STRATEGY_SHIFT.csv",
+      "package_path": "analysis/gpt56terra98/05_GPT56TERRA_STRATEGY_SHIFT.csv",
+      "source_sha256": "ccc54e36687f32a6a5a63b06aa6aa8e23f4536f51dc98566e62984cec346fca8",
+      "package_sha256": "ccc54e36687f32a6a5a63b06aa6aa8e23f4536f51dc98566e62984cec346fca8",
+      "source_size_bytes": 386,
+      "package_size_bytes": 386,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/70_TERRA_CONTINUOUS_RANK_NUMERIC_QC.csv",
+      "package_path": "analysis/gpt56terra98/70_TERRA_CONTINUOUS_RANK_NUMERIC_QC.csv",
+      "source_sha256": "aa97142475b3bbc0e7bb049e4ae1699ae2bd0af67013fce9ca0293eaa1f03a7a",
+      "package_sha256": "aa97142475b3bbc0e7bb049e4ae1699ae2bd0af67013fce9ca0293eaa1f03a7a",
+      "source_size_bytes": 2136,
+      "package_size_bytes": 2136,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_CODER_AGREEMENT.csv",
+      "package_path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_CODER_AGREEMENT.csv",
+      "source_sha256": "b2e550e3db6ff8996d139da3cc89fe53d3db06b40b43b754ed29268e20502ed1",
+      "package_sha256": "b2e550e3db6ff8996d139da3cc89fe53d3db06b40b43b754ed29268e20502ed1",
+      "source_size_bytes": 2082131,
+      "package_size_bytes": 2082131,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_CODING_PROTOCOL_FROZEN.md",
+      "package_path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_CODING_PROTOCOL_FROZEN.md",
+      "source_sha256": "f2a63166eaf2be5c9dcaa579d5244f6b793a4541f91ef65d919ba04d280d5265",
+      "package_sha256": "f2a63166eaf2be5c9dcaa579d5244f6b793a4541f91ef65d919ba04d280d5265",
+      "source_size_bytes": 3076,
+      "package_size_bytes": 3076,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_FINAL.csv",
+      "package_path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_FINAL.csv",
+      "source_sha256": "7b6621573e1fee6c71604fab8094ee1190e4bcf6a54618344c72893ff55faf08",
+      "package_sha256": "7b6621573e1fee6c71604fab8094ee1190e4bcf6a54618344c72893ff55faf08",
+      "source_size_bytes": 478049,
+      "package_size_bytes": 478049,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_PROTOCOL_AMENDMENT_V1_FROZEN.md",
+      "package_path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_PROTOCOL_AMENDMENT_V1_FROZEN.md",
+      "source_sha256": "40e4b2cf50f897b7ae8bdaab5719cf1d8a7b769d9056437acfaa304206ef340c",
+      "package_sha256": "40e4b2cf50f897b7ae8bdaab5719cf1d8a7b769d9056437acfaa304206ef340c",
+      "source_size_bytes": 7672,
+      "package_size_bytes": 7672,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/generate_gpt56terra_expectation_outputs.py",
+      "package_path": "analysis/gpt56terra98/generate_gpt56terra_expectation_outputs.py",
+      "source_sha256": "0284df4658696f737888d3fc86bb6f79065ad7a9c51977a7eedfbbf285fdbab7",
+      "package_sha256": "0284df4658696f737888d3fc86bb6f79065ad7a9c51977a7eedfbbf285fdbab7",
+      "source_size_bytes": 4488,
+      "package_size_bytes": 4488,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis/gpt56terra98/run_gpt56terra_analysis.py",
+      "package_path": "analysis/gpt56terra98/run_gpt56terra_analysis.py",
+      "source_sha256": "abb81b2dffbf9ff4be9f6d44febd37e1664a58b35eda76898267776523a791da",
+      "package_sha256": "abb81b2dffbf9ff4be9f6d44febd37e1664a58b35eda76898267776523a791da",
+      "source_size_bytes": 25013,
+      "package_size_bytes": 25013,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/02_OVERALL_DESCRIPTIVES.csv",
+      "package_path": "analysis_final/02_OVERALL_DESCRIPTIVES.csv",
+      "source_sha256": "8b3ef6c6c053ec7cc259b25e672db52bff34644a952f4ee0bfdf8228cfce04f0",
+      "package_sha256": "8b3ef6c6c053ec7cc259b25e672db52bff34644a952f4ee0bfdf8228cfce04f0",
+      "source_size_bytes": 573,
+      "package_size_bytes": 573,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/02_OVERALL_VISIBILITY_EFFECTS.csv",
+      "package_path": "analysis_final/02_OVERALL_VISIBILITY_EFFECTS.csv",
+      "source_sha256": "489ce8bcf1f2cb31e4f72c2fe3dcc88e2d6e305cce153c29a741752e1ef14984",
+      "package_sha256": "489ce8bcf1f2cb31e4f72c2fe3dcc88e2d6e305cce153c29a741752e1ef14984",
+      "source_size_bytes": 585,
+      "package_size_bytes": 585,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/03_15CELL_BEHAVIORAL_EFFECTS.csv",
+      "package_path": "analysis_final/03_15CELL_BEHAVIORAL_EFFECTS.csv",
+      "source_sha256": "1e3a0c5822401f6395123ab8ae55e4635bd3e993ba74acd08c5b5172f0c3ddb8",
+      "package_sha256": "1e3a0c5822401f6395123ab8ae55e4635bd3e993ba74acd08c5b5172f0c3ddb8",
+      "source_size_bytes": 10058,
+      "package_size_bytes": 10058,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/04_CROSS_MODEL_BEHAVIORAL_REPLICATION.csv",
+      "package_path": "analysis_final/04_CROSS_MODEL_BEHAVIORAL_REPLICATION.csv",
+      "source_sha256": "f6c7e38ef1fa94e02228461234a3cfc070b41d820307f70525dbe329ecac51be",
+      "package_sha256": "f6c7e38ef1fa94e02228461234a3cfc070b41d820307f70525dbe329ecac51be",
+      "source_size_bytes": 3255,
+      "package_size_bytes": 3255,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/04_CROSS_MODEL_BEHAVIORAL_REPLICATION_EXCLUSIONS.csv",
+      "package_path": "analysis_final/04_CROSS_MODEL_BEHAVIORAL_REPLICATION_EXCLUSIONS.csv",
+      "source_sha256": "b864623afefafa1752dcce5a23077a94049f9844f055e764ca725783da8e7c3b",
+      "package_sha256": "b864623afefafa1752dcce5a23077a94049f9844f055e764ca725783da8e7c3b",
+      "source_size_bytes": 5707,
+      "package_size_bytes": 5707,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/06_S1_VISIBILITY_SHIFT.csv",
+      "package_path": "analysis_final/06_S1_VISIBILITY_SHIFT.csv",
+      "source_sha256": "ddc612fbe87c462a365aebf66523b6f035438b80724ec25ef3af3caa88492325",
+      "package_sha256": "ddc612fbe87c462a365aebf66523b6f035438b80724ec25ef3af3caa88492325",
+      "source_size_bytes": 462,
+      "package_size_bytes": 462,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/06_STRATEGY_DISTRIBUTION.csv",
+      "package_path": "analysis_final/06_STRATEGY_DISTRIBUTION.csv",
+      "source_sha256": "b0ecfb46330678ac065776dfa9c533980cec5f9873ea2db10197214046dbd661",
+      "package_sha256": "b0ecfb46330678ac065776dfa9c533980cec5f9873ea2db10197214046dbd661",
+      "source_size_bytes": 2124,
+      "package_size_bytes": 2124,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/08_AGENT_HETEROGENEITY_SUMMARY.csv",
+      "package_path": "analysis_final/08_AGENT_HETEROGENEITY_SUMMARY.csv",
+      "source_sha256": "672659690d7790aa497f4e9a016589faab9a6c191182e1041a05a80896b8bd15",
+      "package_sha256": "672659690d7790aa497f4e9a016589faab9a6c191182e1041a05a80896b8bd15",
+      "source_size_bytes": 436,
+      "package_size_bytes": 436,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/15_QWEN_EXPECTATION_DISTRIBUTION.csv",
+      "package_path": "analysis_final/15_QWEN_EXPECTATION_DISTRIBUTION.csv",
+      "source_sha256": "277d22cd3fd41a20981075db802fe859d17a7bfc60d01e894a9a65edb9ece6b0",
+      "package_sha256": "277d22cd3fd41a20981075db802fe859d17a7bfc60d01e894a9a65edb9ece6b0",
+      "source_size_bytes": 16534,
+      "package_size_bytes": 16534,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/QWEN_EXPECTATION_CODER_AGREEMENT.csv",
+      "package_path": "analysis_final/QWEN_EXPECTATION_CODER_AGREEMENT.csv",
+      "source_sha256": "b0b55e52a1c1c82f4fdf99798b9dd6a79f6857b29ff96fd4aace4e0ffe19cbb2",
+      "package_sha256": "b0b55e52a1c1c82f4fdf99798b9dd6a79f6857b29ff96fd4aace4e0ffe19cbb2",
+      "source_size_bytes": 2116866,
+      "package_size_bytes": 2116866,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/QWEN_EXPECTATION_CODING_PROTOCOL_FROZEN.md",
+      "package_path": "analysis_final/QWEN_EXPECTATION_CODING_PROTOCOL_FROZEN.md",
+      "source_sha256": "f2a63166eaf2be5c9dcaa579d5244f6b793a4541f91ef65d919ba04d280d5265",
+      "package_sha256": "f2a63166eaf2be5c9dcaa579d5244f6b793a4541f91ef65d919ba04d280d5265",
+      "source_size_bytes": 3076,
+      "package_size_bytes": 3076,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/QWEN_EXPECTATION_FINAL.csv",
+      "package_path": "analysis_final/QWEN_EXPECTATION_FINAL.csv",
+      "source_sha256": "922ca8dc4769c88bd2602c01c22de75af11b26b4c9c89800802763ef4e5e4641",
+      "package_sha256": "922ca8dc4769c88bd2602c01c22de75af11b26b4c9c89800802763ef4e5e4641",
+      "source_size_bytes": 447302,
+      "package_size_bytes": 447302,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/QWEN_EXPECTATION_PROTOCOL_AMENDMENT_V1_FROZEN.md",
+      "package_path": "analysis_final/QWEN_EXPECTATION_PROTOCOL_AMENDMENT_V1_FROZEN.md",
+      "source_sha256": "40e4b2cf50f897b7ae8bdaab5719cf1d8a7b769d9056437acfaa304206ef340c",
+      "package_sha256": "40e4b2cf50f897b7ae8bdaab5719cf1d8a7b769d9056437acfaa304206ef340c",
+      "source_size_bytes": 7672,
+      "package_size_bytes": 7672,
+      "redactions": []
+    },
+    {
+      "source_path": "analysis_final/run_all.py",
+      "package_path": "analysis_final/run_all.py",
+      "source_sha256": "1587b73e45b24d2f75785aae09bf220b4850c64254ffc8058166da50d809e999",
+      "package_sha256": "1587b73e45b24d2f75785aae09bf220b4850c64254ffc8058166da50d809e999",
+      "source_size_bytes": 45322,
+      "package_size_bytes": 45322,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/qwen98_cross_model_formal_prereg_v1/03_QWEN98_DEEPSEEK98_PARTICIPANT_MAP.csv",
+      "package_path": "experiment/qwen98_cross_model_formal_prereg_v1/03_QWEN98_DEEPSEEK98_PARTICIPANT_MAP.csv",
+      "source_sha256": "bbb469001da3439649c4b132aefe2ec4755dc04bf7b6dd8804c143d32d3e9c56",
+      "package_sha256": "9cc4194ea1a9e810ac97fc7bd37bb1b22dc154d3644aa5da0b972d6416f8dfc2",
+      "source_size_bytes": 49443,
+      "package_size_bytes": 36504,
+      "redactions": [
+        {
+          "category": "private_workspace_root",
+          "count": 196
+        }
+      ]
+    },
+    {
+      "source_path": "experiment/qwen98_cross_model_formal_prereg_v1/05_SESSION_MEMBERSHIP_FREEZE.csv",
+      "package_path": "experiment/qwen98_cross_model_formal_prereg_v1/05_SESSION_MEMBERSHIP_FREEZE.csv",
+      "source_sha256": "f15de2bc319d905325c89cecf0f1962d36a74f835765448170482aaf37fa1814",
+      "package_sha256": "f15de2bc319d905325c89cecf0f1962d36a74f835765448170482aaf37fa1814",
+      "source_size_bytes": 5260,
+      "package_size_bytes": 5260,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/qwen98_cross_model_formal_prereg_v1/06_TREATMENT_ORDER_FREEZE.csv",
+      "package_path": "experiment/qwen98_cross_model_formal_prereg_v1/06_TREATMENT_ORDER_FREEZE.csv",
+      "source_sha256": "e7496c6825ca9fe654942dbd06eac81f57a8b62520f03b0bada0d4735c0ff6e9",
+      "package_sha256": "e7496c6825ca9fe654942dbd06eac81f57a8b62520f03b0bada0d4735c0ff6e9",
+      "source_size_bytes": 2066,
+      "package_size_bytes": 2066,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/qwen98_cross_model_formal_prereg_v1/07_MATCHING_TOPOLOGY_FREEZE.csv",
+      "package_path": "experiment/qwen98_cross_model_formal_prereg_v1/07_MATCHING_TOPOLOGY_FREEZE.csv",
+      "source_sha256": "8c614a833b63a0218859ad412d37c1f9bffa8e2de6fc744a0c1c8d89c6ba6d22",
+      "package_sha256": "8c614a833b63a0218859ad412d37c1f9bffa8e2de6fc744a0c1c8d89c6ba6d22",
+      "source_size_bytes": 354530,
+      "package_size_bytes": 354530,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/qwen98_cross_model_formal_prereg_v1/15_QWEN98_SEED_REGISTRY.json",
+      "package_path": "experiment/qwen98_cross_model_formal_prereg_v1/15_QWEN98_SEED_REGISTRY.json",
+      "source_sha256": "5a34e98601699a5f509e03ed71edffa07cbb9ba40e8576896113852579084f00",
+      "package_sha256": "5a34e98601699a5f509e03ed71edffa07cbb9ba40e8576896113852579084f00",
+      "source_size_bytes": 1151,
+      "package_size_bytes": 1151,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/qwen98_cross_model_formal_prereg_v1/PROMPT_INVENTORY_FROZEN.json",
+      "package_path": "experiment/qwen98_cross_model_formal_prereg_v1/PROMPT_INVENTORY_FROZEN.json",
+      "source_sha256": "b9e4cfab2a7951c67c868eb7431574d7693131037cc6525d41a931c16bbcb80f",
+      "package_sha256": "b9e4cfab2a7951c67c868eb7431574d7693131037cc6525d41a931c16bbcb80f",
+      "source_size_bytes": 2467,
+      "package_size_bytes": 2467,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/qwen98_cross_model_formal_prereg_v1/STRATEGY_OPTION_ORDER_MATCH_FREEZE.csv",
+      "package_path": "experiment/qwen98_cross_model_formal_prereg_v1/STRATEGY_OPTION_ORDER_MATCH_FREEZE.csv",
+      "source_sha256": "5dfa64c31f1c91908d05856c1b7573d2b0c4730555b52c1473a0cb0aad343549",
+      "package_sha256": "5dfa64c31f1c91908d05856c1b7573d2b0c4730555b52c1473a0cb0aad343549",
+      "source_size_bytes": 508298,
+      "package_size_bytes": 508298,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/01_FORMAL_PARTICIPANTS_FROZEN.csv",
+      "package_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/01_FORMAL_PARTICIPANTS_FROZEN.csv",
+      "source_sha256": "9390fb17bd7c9efff5331d174d9da75f32398af52b7b316ad7fe8facf7c125a0",
+      "package_sha256": "9390fb17bd7c9efff5331d174d9da75f32398af52b7b316ad7fe8facf7c125a0",
+      "source_size_bytes": 26341,
+      "package_size_bytes": 26341,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/02_FORMAL_PERSONAS_FROZEN.jsonl",
+      "package_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/02_FORMAL_PERSONAS_FROZEN.jsonl",
+      "source_sha256": "1c4d34b5a86476ea36133bf9cce9de9855ed2319281cac660a8914b5540d2cac",
+      "package_sha256": "1c4d34b5a86476ea36133bf9cce9de9855ed2319281cac660a8914b5540d2cac",
+      "source_size_bytes": 224859,
+      "package_size_bytes": 224859,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/06_FORMAL_MATCHING_LOCKED.csv",
+      "package_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/06_FORMAL_MATCHING_LOCKED.csv",
+      "source_sha256": "882be49c3c81bc5a380838c2dc94ad87089656d35e89cadf3f8c717ed9a7efbb",
+      "package_sha256": "882be49c3c81bc5a380838c2dc94ad87089656d35e89cadf3f8c717ed9a7efbb",
+      "source_size_bytes": 174130,
+      "package_size_bytes": 174130,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/07_FORMAL_TREATMENT_ORDER_LOCKED.csv",
+      "package_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/07_FORMAL_TREATMENT_ORDER_LOCKED.csv",
+      "source_sha256": "844fb96ea28c4b549bea851a055963ef09bc1423887186af3b7d7c7202c35083",
+      "package_sha256": "844fb96ea28c4b549bea851a055963ef09bc1423887186af3b7d7c7202c35083",
+      "source_size_bytes": 1523,
+      "package_size_bytes": 1523,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/08_FORMAL_SESSION_RANKS.csv",
+      "package_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/08_FORMAL_SESSION_RANKS.csv",
+      "source_sha256": "6189a947a44baca75f8e68a31321a22633b94117b8bf928742fb2f116665301c",
+      "package_sha256": "6189a947a44baca75f8e68a31321a22633b94117b8bf928742fb2f116665301c",
+      "source_size_bytes": 6268,
+      "package_size_bytes": 6268,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/11_FORMAL_STAGE2_RAW.csv",
+      "package_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/11_FORMAL_STAGE2_RAW.csv",
+      "source_sha256": "ff06eb3ac2ecf9940ab0e9bde43f0b85a0b3e6d02ba476d2b9d96ad3f6cc0aca",
+      "package_sha256": "ff06eb3ac2ecf9940ab0e9bde43f0b85a0b3e6d02ba476d2b9d96ad3f6cc0aca",
+      "source_size_bytes": 1779104,
+      "package_size_bytes": 1779104,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/11_FORMAL_STAGE2_RAW.jsonl",
+      "package_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/11_FORMAL_STAGE2_RAW.jsonl",
+      "source_sha256": "a3446a2045ea3bd62dc0df7686dc0e6ccb1bf8051d5c9d9fbeeddd4aa6c3a6ca",
+      "package_sha256": "a3446a2045ea3bd62dc0df7686dc0e6ccb1bf8051d5c9d9fbeeddd4aa6c3a6ca",
+      "source_size_bytes": 4174334,
+      "package_size_bytes": 4174334,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/measurement/formal_bfi44_scores.csv",
+      "package_path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/measurement/formal_bfi44_scores.csv",
+      "source_sha256": "93ccc455ec97c4a5f8e5d0547b6b4fe12229ad64f4538794b527c80d9e9e8947",
+      "package_sha256": "e53217744ca35bd0fe5d81b55ff2f317072be7f18fc469d5e2b390affdda0896",
+      "source_size_bytes": 30161,
+      "package_size_bytes": 23690,
+      "redactions": [
+        {
+          "category": "private_workspace_root",
+          "count": 98
+        }
+      ]
+    },
+    {
+      "source_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/BFI44_ITEMS_FROZEN.json",
+      "package_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/BFI44_ITEMS_FROZEN.json",
+      "source_sha256": "f92c04d031110dd89a9589f8d9eeaf31aa46ca15fcdf7702b6c1936f0b16fce6",
+      "package_sha256": "f92c04d031110dd89a9589f8d9eeaf31aa46ca15fcdf7702b6c1936f0b16fce6",
+      "source_size_bytes": 5689,
+      "package_size_bytes": 5689,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_BFI44_RAW.csv",
+      "package_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_BFI44_RAW.csv",
+      "source_sha256": "7523264f9ac3989ca10b3b4557f5be11998494498a8ee0b90aadaa30a6f587f3",
+      "package_sha256": "7523264f9ac3989ca10b3b4557f5be11998494498a8ee0b90aadaa30a6f587f3",
+      "source_size_bytes": 969466,
+      "package_size_bytes": 969466,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_BFI44_SCORES.csv",
+      "package_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_BFI44_SCORES.csv",
+      "source_sha256": "bc7ff7a80835964e03b57d60b1fec189383d60f40876065d66ec36bbe12095ae",
+      "package_sha256": "bc7ff7a80835964e03b57d60b1fec189383d60f40876065d66ec36bbe12095ae",
+      "source_size_bytes": 9968,
+      "package_size_bytes": 9968,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_SESSION_ROSTER_FROZEN.csv",
+      "package_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_SESSION_ROSTER_FROZEN.csv",
+      "source_sha256": "5c3418932fe1ccf30b355ba801080763037fac3d973e50eda1f708fbbe0a2310",
+      "package_sha256": "5c3418932fe1ccf30b355ba801080763037fac3d973e50eda1f708fbbe0a2310",
+      "source_size_bytes": 5343,
+      "package_size_bytes": 5343,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_STAGE2_RAW.csv",
+      "package_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_STAGE2_RAW.csv",
+      "source_sha256": "af42f94aa9ee5e5ed7ba8a7b1673ff1e13c5fd2302048a694c20d179b865acc0",
+      "package_sha256": "af42f94aa9ee5e5ed7ba8a7b1673ff1e13c5fd2302048a694c20d179b865acc0",
+      "source_size_bytes": 2261811,
+      "package_size_bytes": 2261811,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_STAGE2_RAW.jsonl",
+      "package_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_STAGE2_RAW.jsonl",
+      "source_sha256": "8470c6ab06cc01056d8358fe7543bd235cbb9747e2ebdc3fe84cf1acb2513364",
+      "package_sha256": "8470c6ab06cc01056d8358fe7543bd235cbb9747e2ebdc3fe84cf1acb2513364",
+      "source_size_bytes": 5711797,
+      "package_size_bytes": 5711797,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_WITHIN_SESSION_RANKS.csv",
+      "package_path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_WITHIN_SESSION_RANKS.csv",
+      "source_sha256": "90b311af3976b39915a432f7e1a4bb6dea25b1385a0f2136b52e1fdd65d1159d",
+      "package_sha256": "90b311af3976b39915a432f7e1a4bb6dea25b1385a0f2136b52e1fdd65d1159d",
+      "source_size_bytes": 7400,
+      "package_size_bytes": 7400,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/05_QWEN98_BFI_RAW.csv",
+      "package_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/05_QWEN98_BFI_RAW.csv",
+      "source_sha256": "928da8d4a0906d12bb441355dab8b5b0ab61fe09efdf34b0aaf91a60bbee6919",
+      "package_sha256": "928da8d4a0906d12bb441355dab8b5b0ab61fe09efdf34b0aaf91a60bbee6919",
+      "source_size_bytes": 943594,
+      "package_size_bytes": 943594,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/08_QWEN_RANKS.csv",
+      "package_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/08_QWEN_RANKS.csv",
+      "source_sha256": "4baa7fa3f10dfde49de67d7ad503581af86dba6797ce0323944bbf900e3cab85",
+      "package_sha256": "4baa7fa3f10dfde49de67d7ad503581af86dba6797ce0323944bbf900e3cab85",
+      "source_size_bytes": 6392,
+      "package_size_bytes": 6392,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/GAME_MECHANICS_CLARIFIED_V2.txt",
+      "package_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/GAME_MECHANICS_CLARIFIED_V2.txt",
+      "source_sha256": "c821ae535b31bdd5bf03247a394cc8e6e6af9ddf9d82a6a12cf75d8d131b79ec",
+      "package_sha256": "c821ae535b31bdd5bf03247a394cc8e6e6af9ddf9d82a6a12cf75d8d131b79ec",
+      "source_size_bytes": 5654,
+      "package_size_bytes": 5654,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/QWEN98_STAGE2_RAW.csv",
+      "package_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/QWEN98_STAGE2_RAW.csv",
+      "source_sha256": "0a817cb26611d312ae86984eb7647874d8b88b8208ec513bef03d89077940449",
+      "package_sha256": "0a817cb26611d312ae86984eb7647874d8b88b8208ec513bef03d89077940449",
+      "source_size_bytes": 2254075,
+      "package_size_bytes": 2254075,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/QWEN98_STAGE2_RAW.jsonl",
+      "package_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/QWEN98_STAGE2_RAW.jsonl",
+      "source_sha256": "a2c7d0111d739a59170a7c5b3a65fc8f7b3dc8efbc27eafcc16bb8b5c2b68f62",
+      "package_sha256": "a2c7d0111d739a59170a7c5b3a65fc8f7b3dc8efbc27eafcc16bb8b5c2b68f62",
+      "source_size_bytes": 5553650,
+      "package_size_bytes": 5553650,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/measurement/qwen_bfi44_scores.csv",
+      "package_path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/measurement/qwen_bfi44_scores.csv",
+      "source_sha256": "0eb1bdf336386a9d8633a581d0b005e043437ab85f36e0d801696fbfe9869462",
+      "package_sha256": "0eb1bdf336386a9d8633a581d0b005e043437ab85f36e0d801696fbfe9869462",
+      "source_size_bytes": 8582,
+      "package_size_bytes": 8582,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/shared_pipeline/hashing.py",
+      "package_path": "experiment/shared_pipeline/hashing.py",
+      "source_sha256": "398f16463c56232fc315fb41c1402ad416935c911cd46c6351058d147c393854",
+      "package_sha256": "398f16463c56232fc315fb41c1402ad416935c911cd46c6351058d147c393854",
+      "source_size_bytes": 2598,
+      "package_size_bytes": 2598,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/shared_pipeline/invariants.py",
+      "package_path": "experiment/shared_pipeline/invariants.py",
+      "source_sha256": "d7ae19144d2565ca1a2be42bc422d6c1150e088ef0e4254053ccf6ef633bc6fc",
+      "package_sha256": "d7ae19144d2565ca1a2be42bc422d6c1150e088ef0e4254053ccf6ef633bc6fc",
+      "source_size_bytes": 10942,
+      "package_size_bytes": 10942,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/shared_pipeline/matching.py",
+      "package_path": "experiment/shared_pipeline/matching.py",
+      "source_sha256": "0fb6846a3dbc6959ec0bfd718794d622819d1ef52cfbc813e32347ae7d97319d",
+      "package_sha256": "0fb6846a3dbc6959ec0bfd718794d622819d1ef52cfbc813e32347ae7d97319d",
+      "source_size_bytes": 18892,
+      "package_size_bytes": 18892,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/shared_pipeline/paths.py",
+      "package_path": "experiment/shared_pipeline/paths.py",
+      "source_sha256": "bb46a43b680dc0c81e4fb901b87b471959d27171edee4a13258551ffe9a7f589",
+      "package_sha256": "2f3a546a2a8849f679ced92c4dd63d3a2dfe744325791bef4751c7a576611a29",
+      "source_size_bytes": 3783,
+      "package_size_bytes": 3682,
+      "redactions": [
+        {
+          "category": "private_external_library_path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source_path": "experiment/shared_pipeline/personality_mapping.py",
+      "package_path": "experiment/shared_pipeline/personality_mapping.py",
+      "source_sha256": "f1d9b07fd31e61e3bdb4cdba65b221488cf082bb992388d2dbda8e3bfa768e24",
+      "package_sha256": "f1d9b07fd31e61e3bdb4cdba65b221488cf082bb992388d2dbda8e3bfa768e24",
+      "source_size_bytes": 4995,
+      "package_size_bytes": 4995,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/shared_pipeline/ranking.py",
+      "package_path": "experiment/shared_pipeline/ranking.py",
+      "source_sha256": "502ae693cef7ea49d02597462e21aa495809121814be8c7449dcf64ac1296dc2",
+      "package_sha256": "502ae693cef7ea49d02597462e21aa495809121814be8c7449dcf64ac1296dc2",
+      "source_size_bytes": 7393,
+      "package_size_bytes": 7393,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment/shared_pipeline/session_assignment.py",
+      "package_path": "experiment/shared_pipeline/session_assignment.py",
+      "source_sha256": "2931d058700ac26c45e9bd0ab136348be6574c5a45bc4784b9cc5a4f9740538a",
+      "package_sha256": "2931d058700ac26c45e9bd0ab136348be6574c5a45bc4784b9cc5a4f9740538a",
+      "source_size_bytes": 5512,
+      "package_size_bytes": 5512,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment_personality_induction/personality_shaping/control_score_mapping.py",
+      "package_path": "experiment_personality_induction/personality_shaping/control_score_mapping.py",
+      "source_sha256": "79e80d890cde6900cb349a4759756439e04d5639c8252c836490288819d575b8",
+      "package_sha256": "79e80d890cde6900cb349a4759756439e04d5639c8252c836490288819d575b8",
+      "source_size_bytes": 1368,
+      "package_size_bytes": 1368,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment_personality_induction/personality_shaping/intensity_mapper.py",
+      "package_path": "experiment_personality_induction/personality_shaping/intensity_mapper.py",
+      "source_sha256": "969b90cf5bc51112022b0005c31e59f91902e13dcaada8a4db3e9787d54e83e3",
+      "package_sha256": "969b90cf5bc51112022b0005c31e59f91902e13dcaada8a4db3e9787d54e83e3",
+      "source_size_bytes": 766,
+      "package_size_bytes": 766,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment_personality_induction/personality_shaping/intensity_qualifiers.json",
+      "package_path": "experiment_personality_induction/personality_shaping/intensity_qualifiers.json",
+      "source_sha256": "d1f10dbc8a4b2a2507c342742387845d85d3e6ceb8771a026431f532b8e21323",
+      "package_sha256": "d1f10dbc8a4b2a2507c342742387845d85d3e6ceb8771a026431f532b8e21323",
+      "source_size_bytes": 720,
+      "package_size_bytes": 720,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment_personality_induction/personality_shaping/v3_game_safe/persona_prompt_generator_v3_game_safe.py",
+      "package_path": "experiment_personality_induction/personality_shaping/v3_game_safe/persona_prompt_generator_v3_game_safe.py",
+      "source_sha256": "19bdcb9999353034a02c474d805e7ba9b47055313bf91c8182eda61ceda91fcc",
+      "package_sha256": "19bdcb9999353034a02c474d805e7ba9b47055313bf91c8182eda61ceda91fcc",
+      "source_size_bytes": 5971,
+      "package_size_bytes": 5971,
+      "redactions": []
+    },
+    {
+      "source_path": "experiment_personality_induction/references/personality_shaping/serapio_garcia_2025_trait_adjectives_v3_game_safe.csv",
+      "package_path": "experiment_personality_induction/references/personality_shaping/serapio_garcia_2025_trait_adjectives_v3_game_safe.csv",
+      "source_sha256": "71f5c070315308a6e80c5857a6c083ae0a8a4869cfbe5f1a064a5e08826bf2de",
+      "package_sha256": "71f5c070315308a6e80c5857a6c083ae0a8a4869cfbe5f1a064a5e08826bf2de",
+      "source_size_bytes": 25445,
+      "package_size_bytes": 25445,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/02_RQ1_PRIMARY_15_CONTRASTS.csv",
+      "package_path": "formal_study1_98_analysis_v1/02_RQ1_PRIMARY_15_CONTRASTS.csv",
+      "source_sha256": "48cfefd684039627f46b1fbf96bc1fb160798b5272e87f3e63d5affdbb1cbb58",
+      "package_sha256": "48cfefd684039627f46b1fbf96bc1fb160798b5272e87f3e63d5affdbb1cbb58",
+      "source_size_bytes": 2284,
+      "package_size_bytes": 2284,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/05_RQ1_POOLED_VISIBLE_SECONDARY.csv",
+      "package_path": "formal_study1_98_analysis_v1/05_RQ1_POOLED_VISIBLE_SECONDARY.csv",
+      "source_sha256": "af34d732f04d95a5be6a6ea43c39fd67eb87e8f24d6908baacbc7689b4312f3f",
+      "package_sha256": "af34d732f04d95a5be6a6ea43c39fd67eb87e8f24d6908baacbc7689b4312f3f",
+      "source_size_bytes": 298,
+      "package_size_bytes": 298,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/08_EXPECTATION_FINAL.csv",
+      "package_path": "formal_study1_98_analysis_v1/08_EXPECTATION_FINAL.csv",
+      "source_sha256": "a44435c77dc038a2013a2f48a661f0c15650ae4c6b2c17101a3dc58e7bf670fc",
+      "package_sha256": "a44435c77dc038a2013a2f48a661f0c15650ae4c6b2c17101a3dc58e7bf670fc",
+      "source_size_bytes": 314304,
+      "package_size_bytes": 314304,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/09_RQ2_EXPECTATION_RESULTS.csv",
+      "package_path": "formal_study1_98_analysis_v1/09_RQ2_EXPECTATION_RESULTS.csv",
+      "source_sha256": "d29a0aafa231f534e9a7b46fa805407ac2e674757ca7d555b92d9ec2bd862aa7",
+      "package_sha256": "d29a0aafa231f534e9a7b46fa805407ac2e674757ca7d555b92d9ec2bd862aa7",
+      "source_size_bytes": 388,
+      "package_size_bytes": 388,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/10_RQ2_EXPECTATION_SUMMARY.md",
+      "package_path": "formal_study1_98_analysis_v1/10_RQ2_EXPECTATION_SUMMARY.md",
+      "source_sha256": "ee41e0faeece5f408813b27bf36ef5e88a82dd2df631e078898a2d9b8cb21df9",
+      "package_sha256": "ee41e0faeece5f408813b27bf36ef5e88a82dd2df631e078898a2d9b8cb21df9",
+      "source_size_bytes": 660,
+      "package_size_bytes": 660,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/13_S1_BIDIRECTIONALITY.csv",
+      "package_path": "formal_study1_98_analysis_v1/13_S1_BIDIRECTIONALITY.csv",
+      "source_sha256": "8bafdcf5929f476288c7f24f146b2efad73a896e4a3d4cdc2241f2ca0d77e108",
+      "package_sha256": "8bafdcf5929f476288c7f24f146b2efad73a896e4a3d4cdc2241f2ca0d77e108",
+      "source_size_bytes": 1949,
+      "package_size_bytes": 1949,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/14_SESSION_STABILITY.csv",
+      "package_path": "formal_study1_98_analysis_v1/14_SESSION_STABILITY.csv",
+      "source_sha256": "5a3b4422922e80808e74f178f13fb677be77ed0bc9478ce0d6e87e47d44ff3fe",
+      "package_sha256": "5a3b4422922e80808e74f178f13fb677be77ed0bc9478ce0d6e87e47d44ff3fe",
+      "source_size_bytes": 838,
+      "package_size_bytes": 838,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/CODING_RUBRIC.md",
+      "package_path": "formal_study1_98_analysis_v1/CODING_RUBRIC.md",
+      "source_sha256": "8e757517021920c1eef57775a4765e1f51737772f609ecc51e80d0f040d9bd5b",
+      "package_sha256": "8e757517021920c1eef57775a4765e1f51737772f609ecc51e80d0f040d9bd5b",
+      "source_size_bytes": 1897,
+      "package_size_bytes": 1897,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/LLM_CODER_AGREEMENT.csv",
+      "package_path": "formal_study1_98_analysis_v1/LLM_CODER_AGREEMENT.csv",
+      "source_sha256": "c4e18fa5025037a1f9e710a0264ec5594e5b5361ecdc05f638e4328a890641d0",
+      "package_sha256": "c4e18fa5025037a1f9e710a0264ec5594e5b5361ecdc05f638e4328a890641d0",
+      "source_size_bytes": 150905,
+      "package_size_bytes": 150905,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/scripts/finalize_formal_analysis.py",
+      "package_path": "formal_study1_98_analysis_v1/scripts/finalize_formal_analysis.py",
+      "source_sha256": "17d33101b5e3db7d4ac938a24afbe6e31052fe35d336723df4af3c3a38ab316d",
+      "package_sha256": "17d33101b5e3db7d4ac938a24afbe6e31052fe35d336723df4af3c3a38ab316d",
+      "source_size_bytes": 16979,
+      "package_size_bytes": 16979,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_analysis_v1/scripts/run_formal_analysis.py",
+      "package_path": "formal_study1_98_analysis_v1/scripts/run_formal_analysis.py",
+      "source_sha256": "6dc0eed342f3c92924223196235af55bd092e25f36b3216cea371fe13dfd107e",
+      "package_sha256": "6dc0eed342f3c92924223196235af55bd092e25f36b3216cea371fe13dfd107e",
+      "source_size_bytes": 17016,
+      "package_size_bytes": 17016,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_execution_adapter_v1_1/FORMAL_SOURCE_SAMPLE_98_V1_1.csv",
+      "package_path": "formal_study1_98_execution_adapter_v1_1/FORMAL_SOURCE_SAMPLE_98_V1_1.csv",
+      "source_sha256": "a918d9b17c7601d7b6775992a62d0e8f26330118c8bceb63c23b7f9341516059",
+      "package_sha256": "a918d9b17c7601d7b6775992a62d0e8f26330118c8bceb63c23b7f9341516059",
+      "source_size_bytes": 25583,
+      "package_size_bytes": 25583,
+      "redactions": []
+    },
+    {
+      "source_path": "formal_study1_98_execution_adapter_v1_1/FORMAL_TREATMENT_ORDER_V1_1.csv",
+      "package_path": "formal_study1_98_execution_adapter_v1_1/FORMAL_TREATMENT_ORDER_V1_1.csv",
+      "source_sha256": "844fb96ea28c4b549bea851a055963ef09bc1423887186af3b7d7c7202c35083",
+      "package_sha256": "844fb96ea28c4b549bea851a055963ef09bc1423887186af3b7d7c7202c35083",
+      "source_size_bytes": 1523,
+      "package_size_bytes": 1523,
+      "redactions": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "directly_derived_from_supplementary_note_A.7.1",
+  "source_basis": "Serapio-García et al. (2025), Supplementary Note A.7.1, nine-level prompt design.",
+  "source_reference": "doi:10.1038/s42256-025-01115-6 Supplementary Note A.7.1",
+  "levels": {
+    "1": {"pole": "low", "qualifier": "extremely"},
+    "2": {"pole": "low", "qualifier": "very"},
+    "3": {"pole": "low", "qualifier": ""},
+    "4": {"pole": "low", "qualifier": "a bit"},
+    "5": {"pole": "balanced", "qualifier": "neither_low_nor_high"},
+    "6": {"pole": "high", "qualifier": "a bit"},
+    "7": {"pole": "high", "qualifier": ""},
+    "8": {"pole": "high", "qualifier": "very"},
+    "9": {"pole": "high", "qualifier": "extremely"}
+  }
+}

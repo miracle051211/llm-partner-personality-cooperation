@@ -1,0 +1,456 @@
+{
+  "algorithm": "SHA-256",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "analysis/gpt56terra98/01_GPT56TERRA_OVERALL_EFFECT.csv",
+      "size_bytes": 333,
+      "sha256": "6916b8995a096dd5f95e219666b434ecf38fbc8ee8a004b4786697a3d1aff0bb"
+    },
+    {
+      "path": "analysis/gpt56terra98/02_GPT56TERRA_15CELL_EFFECTS.csv",
+      "size_bytes": 4797,
+      "sha256": "c57955b86563011abb6d0f77da55097fffd59b1737c3d804b7034f9765656851"
+    },
+    {
+      "path": "analysis/gpt56terra98/03_GPT56TERRA_HUMAN_ALIGNMENT.csv",
+      "size_bytes": 3376,
+      "sha256": "d3508e8d1fc9c1427e8d02af2ad59919d6cd925434090a54acfb509f4e5ddc7c"
+    },
+    {
+      "path": "analysis/gpt56terra98/03_GPT56TERRA_HUMAN_ALIGNMENT_RANK_HIGHNESS.csv",
+      "size_bytes": 6736,
+      "sha256": "202ac27220ff87aa7adf23b3db5f700422190cd0eba470de8f19abe3253fb00c"
+    },
+    {
+      "path": "analysis/gpt56terra98/04_GPT56TERRA_EXPECTATION_DISTRIBUTION.csv",
+      "size_bytes": 4971,
+      "sha256": "c17e89398209cc5ac7ade0f095e1b4e7a3a450faa0466c794b5ace61271b4146"
+    },
+    {
+      "path": "analysis/gpt56terra98/05_GPT56TERRA_STRATEGY_DISTRIBUTION.csv",
+      "size_bytes": 633,
+      "sha256": "2325054e033a43997bcaa1e747a2a649297025c79d9c5447351d3e16a2e471eb"
+    },
+    {
+      "path": "analysis/gpt56terra98/05_GPT56TERRA_STRATEGY_SHIFT.csv",
+      "size_bytes": 386,
+      "sha256": "ccc54e36687f32a6a5a63b06aa6aa8e23f4536f51dc98566e62984cec346fca8"
+    },
+    {
+      "path": "analysis/gpt56terra98/70_TERRA_CONTINUOUS_RANK_NUMERIC_QC.csv",
+      "size_bytes": 2136,
+      "sha256": "aa97142475b3bbc0e7bb049e4ae1699ae2bd0af67013fce9ca0293eaa1f03a7a"
+    },
+    {
+      "path": "analysis/gpt56terra98/generate_gpt56terra_expectation_outputs.py",
+      "size_bytes": 4488,
+      "sha256": "0284df4658696f737888d3fc86bb6f79065ad7a9c51977a7eedfbbf285fdbab7"
+    },
+    {
+      "path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_CODER_AGREEMENT.csv",
+      "size_bytes": 2082131,
+      "sha256": "b2e550e3db6ff8996d139da3cc89fe53d3db06b40b43b754ed29268e20502ed1"
+    },
+    {
+      "path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_CODING_PROTOCOL_FROZEN.md",
+      "size_bytes": 3076,
+      "sha256": "f2a63166eaf2be5c9dcaa579d5244f6b793a4541f91ef65d919ba04d280d5265"
+    },
+    {
+      "path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_FINAL.csv",
+      "size_bytes": 478049,
+      "sha256": "7b6621573e1fee6c71604fab8094ee1190e4bcf6a54618344c72893ff55faf08"
+    },
+    {
+      "path": "analysis/gpt56terra98/GPT56TERRA_EXPECTATION_PROTOCOL_AMENDMENT_V1_FROZEN.md",
+      "size_bytes": 7672,
+      "sha256": "40e4b2cf50f897b7ae8bdaab5719cf1d8a7b769d9056437acfaa304206ef340c"
+    },
+    {
+      "path": "analysis/gpt56terra98/run_gpt56terra_analysis.py",
+      "size_bytes": 25013,
+      "sha256": "abb81b2dffbf9ff4be9f6d44febd37e1664a58b35eda76898267776523a791da"
+    },
+    {
+      "path": "analysis_final/02_OVERALL_DESCRIPTIVES.csv",
+      "size_bytes": 573,
+      "sha256": "8b3ef6c6c053ec7cc259b25e672db52bff34644a952f4ee0bfdf8228cfce04f0"
+    },
+    {
+      "path": "analysis_final/02_OVERALL_VISIBILITY_EFFECTS.csv",
+      "size_bytes": 585,
+      "sha256": "489ce8bcf1f2cb31e4f72c2fe3dcc88e2d6e305cce153c29a741752e1ef14984"
+    },
+    {
+      "path": "analysis_final/03_15CELL_BEHAVIORAL_EFFECTS.csv",
+      "size_bytes": 10058,
+      "sha256": "1e3a0c5822401f6395123ab8ae55e4635bd3e993ba74acd08c5b5172f0c3ddb8"
+    },
+    {
+      "path": "analysis_final/04_CROSS_MODEL_BEHAVIORAL_REPLICATION.csv",
+      "size_bytes": 3255,
+      "sha256": "f6c7e38ef1fa94e02228461234a3cfc070b41d820307f70525dbe329ecac51be"
+    },
+    {
+      "path": "analysis_final/04_CROSS_MODEL_BEHAVIORAL_REPLICATION_EXCLUSIONS.csv",
+      "size_bytes": 5707,
+      "sha256": "b864623afefafa1752dcce5a23077a94049f9844f055e764ca725783da8e7c3b"
+    },
+    {
+      "path": "analysis_final/06_S1_VISIBILITY_SHIFT.csv",
+      "size_bytes": 462,
+      "sha256": "ddc612fbe87c462a365aebf66523b6f035438b80724ec25ef3af3caa88492325"
+    },
+    {
+      "path": "analysis_final/06_STRATEGY_DISTRIBUTION.csv",
+      "size_bytes": 2124,
+      "sha256": "b0ecfb46330678ac065776dfa9c533980cec5f9873ea2db10197214046dbd661"
+    },
+    {
+      "path": "analysis_final/08_AGENT_HETEROGENEITY_SUMMARY.csv",
+      "size_bytes": 436,
+      "sha256": "672659690d7790aa497f4e9a016589faab9a6c191182e1041a05a80896b8bd15"
+    },
+    {
+      "path": "analysis_final/15_QWEN_EXPECTATION_DISTRIBUTION.csv",
+      "size_bytes": 16534,
+      "sha256": "277d22cd3fd41a20981075db802fe859d17a7bfc60d01e894a9a65edb9ece6b0"
+    },
+    {
+      "path": "analysis_final/QWEN_EXPECTATION_CODER_AGREEMENT.csv",
+      "size_bytes": 2116866,
+      "sha256": "b0b55e52a1c1c82f4fdf99798b9dd6a79f6857b29ff96fd4aace4e0ffe19cbb2"
+    },
+    {
+      "path": "analysis_final/QWEN_EXPECTATION_CODING_PROTOCOL_FROZEN.md",
+      "size_bytes": 3076,
+      "sha256": "f2a63166eaf2be5c9dcaa579d5244f6b793a4541f91ef65d919ba04d280d5265"
+    },
+    {
+      "path": "analysis_final/QWEN_EXPECTATION_FINAL.csv",
+      "size_bytes": 447302,
+      "sha256": "922ca8dc4769c88bd2602c01c22de75af11b26b4c9c89800802763ef4e5e4641"
+    },
+    {
+      "path": "analysis_final/QWEN_EXPECTATION_PROTOCOL_AMENDMENT_V1_FROZEN.md",
+      "size_bytes": 7672,
+      "sha256": "40e4b2cf50f897b7ae8bdaab5719cf1d8a7b769d9056437acfaa304206ef340c"
+    },
+    {
+      "path": "analysis_final/run_all.py",
+      "size_bytes": 45322,
+      "sha256": "1587b73e45b24d2f75785aae09bf220b4850c64254ffc8058166da50d809e999"
+    },
+    {
+      "path": "experiment/qwen98_cross_model_formal_prereg_v1/03_QWEN98_DEEPSEEK98_PARTICIPANT_MAP.csv",
+      "size_bytes": 36504,
+      "sha256": "9cc4194ea1a9e810ac97fc7bd37bb1b22dc154d3644aa5da0b972d6416f8dfc2"
+    },
+    {
+      "path": "experiment/qwen98_cross_model_formal_prereg_v1/05_SESSION_MEMBERSHIP_FREEZE.csv",
+      "size_bytes": 5260,
+      "sha256": "f15de2bc319d905325c89cecf0f1962d36a74f835765448170482aaf37fa1814"
+    },
+    {
+      "path": "experiment/qwen98_cross_model_formal_prereg_v1/06_TREATMENT_ORDER_FREEZE.csv",
+      "size_bytes": 2066,
+      "sha256": "e7496c6825ca9fe654942dbd06eac81f57a8b62520f03b0bada0d4735c0ff6e9"
+    },
+    {
+      "path": "experiment/qwen98_cross_model_formal_prereg_v1/07_MATCHING_TOPOLOGY_FREEZE.csv",
+      "size_bytes": 354530,
+      "sha256": "8c614a833b63a0218859ad412d37c1f9bffa8e2de6fc744a0c1c8d89c6ba6d22"
+    },
+    {
+      "path": "experiment/qwen98_cross_model_formal_prereg_v1/15_QWEN98_SEED_REGISTRY.json",
+      "size_bytes": 1151,
+      "sha256": "5a34e98601699a5f509e03ed71edffa07cbb9ba40e8576896113852579084f00"
+    },
+    {
+      "path": "experiment/qwen98_cross_model_formal_prereg_v1/PROMPT_INVENTORY_FROZEN.json",
+      "size_bytes": 2467,
+      "sha256": "b9e4cfab2a7951c67c868eb7431574d7693131037cc6525d41a931c16bbcb80f"
+    },
+    {
+      "path": "experiment/qwen98_cross_model_formal_prereg_v1/STRATEGY_OPTION_ORDER_MATCH_FREEZE.csv",
+      "size_bytes": 508298,
+      "sha256": "5dfa64c31f1c91908d05856c1b7573d2b0c4730555b52c1473a0cb0aad343549"
+    },
+    {
+      "path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/01_FORMAL_PARTICIPANTS_FROZEN.csv",
+      "size_bytes": 26341,
+      "sha256": "9390fb17bd7c9efff5331d174d9da75f32398af52b7b316ad7fe8facf7c125a0"
+    },
+    {
+      "path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/02_FORMAL_PERSONAS_FROZEN.jsonl",
+      "size_bytes": 224859,
+      "sha256": "1c4d34b5a86476ea36133bf9cce9de9855ed2319281cac660a8914b5540d2cac"
+    },
+    {
+      "path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/06_FORMAL_MATCHING_LOCKED.csv",
+      "size_bytes": 174130,
+      "sha256": "882be49c3c81bc5a380838c2dc94ad87089656d35e89cadf3f8c717ed9a7efbb"
+    },
+    {
+      "path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/07_FORMAL_TREATMENT_ORDER_LOCKED.csv",
+      "size_bytes": 1523,
+      "sha256": "844fb96ea28c4b549bea851a055963ef09bc1423887186af3b7d7c7202c35083"
+    },
+    {
+      "path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/08_FORMAL_SESSION_RANKS.csv",
+      "size_bytes": 6268,
+      "sha256": "6189a947a44baca75f8e68a31321a22633b94117b8bf928742fb2f116665301c"
+    },
+    {
+      "path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/11_FORMAL_STAGE2_RAW.csv",
+      "size_bytes": 1779104,
+      "sha256": "ff06eb3ac2ecf9940ab0e9bde43f0b85a0b3e6d02ba476d2b9d96ad3f6cc0aca"
+    },
+    {
+      "path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/11_FORMAL_STAGE2_RAW.jsonl",
+      "size_bytes": 4174334,
+      "sha256": "a3446a2045ea3bd62dc0df7686dc0e6ccb1bf8051d5c9d9fbeeddd4aa6c3a6ca"
+    },
+    {
+      "path": "experiment/runs/formal/formal_study1_98_v1_1_20261002_172630/measurement/formal_bfi44_scores.csv",
+      "size_bytes": 23690,
+      "sha256": "e53217744ca35bd0fe5d81b55ff2f317072be7f18fc469d5e2b390affdda0896"
+    },
+    {
+      "path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/BFI44_ITEMS_FROZEN.json",
+      "size_bytes": 5689,
+      "sha256": "f92c04d031110dd89a9589f8d9eeaf31aa46ca15fcdf7702b6c1936f0b16fce6"
+    },
+    {
+      "path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_BFI44_RAW.csv",
+      "size_bytes": 969466,
+      "sha256": "7523264f9ac3989ca10b3b4557f5be11998494498a8ee0b90aadaa30a6f587f3"
+    },
+    {
+      "path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_BFI44_SCORES.csv",
+      "size_bytes": 9968,
+      "sha256": "bc7ff7a80835964e03b57d60b1fec189383d60f40876065d66ec36bbe12095ae"
+    },
+    {
+      "path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_SESSION_ROSTER_FROZEN.csv",
+      "size_bytes": 5343,
+      "sha256": "5c3418932fe1ccf30b355ba801080763037fac3d973e50eda1f708fbbe0a2310"
+    },
+    {
+      "path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_STAGE2_RAW.csv",
+      "size_bytes": 2261811,
+      "sha256": "af42f94aa9ee5e5ed7ba8a7b1673ff1e13c5fd2302048a694c20d179b865acc0"
+    },
+    {
+      "path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_STAGE2_RAW.jsonl",
+      "size_bytes": 5711797,
+      "sha256": "8470c6ab06cc01056d8358fe7543bd235cbb9747e2ebdc3fe84cf1acb2513364"
+    },
+    {
+      "path": "experiment/runs/formal/gpt56terra98_cross_model_formal_v1_20261010_220000/GPT56TERRA_WITHIN_SESSION_RANKS.csv",
+      "size_bytes": 7400,
+      "sha256": "90b311af3976b39915a432f7e1a4bb6dea25b1385a0f2136b52e1fdd65d1159d"
+    },
+    {
+      "path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/05_QWEN98_BFI_RAW.csv",
+      "size_bytes": 943594,
+      "sha256": "928da8d4a0906d12bb441355dab8b5b0ab61fe09efdf34b0aaf91a60bbee6919"
+    },
+    {
+      "path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/08_QWEN_RANKS.csv",
+      "size_bytes": 6392,
+      "sha256": "4baa7fa3f10dfde49de67d7ad503581af86dba6797ce0323944bbf900e3cab85"
+    },
+    {
+      "path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/GAME_MECHANICS_CLARIFIED_V2.txt",
+      "size_bytes": 5654,
+      "sha256": "c821ae535b31bdd5bf03247a394cc8e6e6af9ddf9d82a6a12cf75d8d131b79ec"
+    },
+    {
+      "path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/measurement/qwen_bfi44_scores.csv",
+      "size_bytes": 8582,
+      "sha256": "0eb1bdf336386a9d8633a581d0b005e043437ab85f36e0d801696fbfe9869462"
+    },
+    {
+      "path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/QWEN98_STAGE2_RAW.csv",
+      "size_bytes": 2254075,
+      "sha256": "0a817cb26611d312ae86984eb7647874d8b88b8208ec513bef03d89077940449"
+    },
+    {
+      "path": "experiment/runs/formal/qwen98_cross_model_formal_v1_20261007_115200/QWEN98_STAGE2_RAW.jsonl",
+      "size_bytes": 5553650,
+      "sha256": "a2c7d0111d739a59170a7c5b3a65fc8f7b3dc8efbc27eafcc16bb8b5c2b68f62"
+    },
+    {
+      "path": "experiment/shared_pipeline/hashing.py",
+      "size_bytes": 2598,
+      "sha256": "398f16463c56232fc315fb41c1402ad416935c911cd46c6351058d147c393854"
+    },
+    {
+      "path": "experiment/shared_pipeline/invariants.py",
+      "size_bytes": 10942,
+      "sha256": "d7ae19144d2565ca1a2be42bc422d6c1150e088ef0e4254053ccf6ef633bc6fc"
+    },
+    {
+      "path": "experiment/shared_pipeline/matching.py",
+      "size_bytes": 18892,
+      "sha256": "0fb6846a3dbc6959ec0bfd718794d622819d1ef52cfbc813e32347ae7d97319d"
+    },
+    {
+      "path": "experiment/shared_pipeline/paths.py",
+      "size_bytes": 3682,
+      "sha256": "2f3a546a2a8849f679ced92c4dd63d3a2dfe744325791bef4751c7a576611a29"
+    },
+    {
+      "path": "experiment/shared_pipeline/personality_mapping.py",
+      "size_bytes": 4995,
+      "sha256": "f1d9b07fd31e61e3bdb4cdba65b221488cf082bb992388d2dbda8e3bfa768e24"
+    },
+    {
+      "path": "experiment/shared_pipeline/ranking.py",
+      "size_bytes": 7393,
+      "sha256": "502ae693cef7ea49d02597462e21aa495809121814be8c7449dcf64ac1296dc2"
+    },
+    {
+      "path": "experiment/shared_pipeline/session_assignment.py",
+      "size_bytes": 5512,
+      "sha256": "2931d058700ac26c45e9bd0ab136348be6574c5a45bc4784b9cc5a4f9740538a"
+    },
+    {
+      "path": "experiment_personality_induction/personality_shaping/control_score_mapping.py",
+      "size_bytes": 1368,
+      "sha256": "79e80d890cde6900cb349a4759756439e04d5639c8252c836490288819d575b8"
+    },
+    {
+      "path": "experiment_personality_induction/personality_shaping/intensity_mapper.py",
+      "size_bytes": 766,
+      "sha256": "969b90cf5bc51112022b0005c31e59f91902e13dcaada8a4db3e9787d54e83e3"
+    },
+    {
+      "path": "experiment_personality_induction/personality_shaping/intensity_qualifiers.json",
+      "size_bytes": 720,
+      "sha256": "d1f10dbc8a4b2a2507c342742387845d85d3e6ceb8771a026431f532b8e21323"
+    },
+    {
+      "path": "experiment_personality_induction/personality_shaping/v3_game_safe/persona_prompt_generator_v3_game_safe.py",
+      "size_bytes": 5971,
+      "sha256": "19bdcb9999353034a02c474d805e7ba9b47055313bf91c8182eda61ceda91fcc"
+    },
+    {
+      "path": "experiment_personality_induction/references/personality_shaping/serapio_garcia_2025_trait_adjectives_v3_game_safe.csv",
+      "size_bytes": 25445,
+      "sha256": "71f5c070315308a6e80c5857a6c083ae0a8a4869cfbe5f1a064a5e08826bf2de"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/02_RQ1_PRIMARY_15_CONTRASTS.csv",
+      "size_bytes": 2284,
+      "sha256": "48cfefd684039627f46b1fbf96bc1fb160798b5272e87f3e63d5affdbb1cbb58"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/05_RQ1_POOLED_VISIBLE_SECONDARY.csv",
+      "size_bytes": 298,
+      "sha256": "af34d732f04d95a5be6a6ea43c39fd67eb87e8f24d6908baacbc7689b4312f3f"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/08_EXPECTATION_FINAL.csv",
+      "size_bytes": 314304,
+      "sha256": "a44435c77dc038a2013a2f48a661f0c15650ae4c6b2c17101a3dc58e7bf670fc"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/09_RQ2_EXPECTATION_RESULTS.csv",
+      "size_bytes": 388,
+      "sha256": "d29a0aafa231f534e9a7b46fa805407ac2e674757ca7d555b92d9ec2bd862aa7"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/10_RQ2_EXPECTATION_SUMMARY.md",
+      "size_bytes": 660,
+      "sha256": "ee41e0faeece5f408813b27bf36ef5e88a82dd2df631e078898a2d9b8cb21df9"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/13_S1_BIDIRECTIONALITY.csv",
+      "size_bytes": 1949,
+      "sha256": "8bafdcf5929f476288c7f24f146b2efad73a896e4a3d4cdc2241f2ca0d77e108"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/14_SESSION_STABILITY.csv",
+      "size_bytes": 838,
+      "sha256": "5a3b4422922e80808e74f178f13fb677be77ed0bc9478ce0d6e87e47d44ff3fe"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/CODING_RUBRIC.md",
+      "size_bytes": 1897,
+      "sha256": "8e757517021920c1eef57775a4765e1f51737772f609ecc51e80d0f040d9bd5b"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/LLM_CODER_AGREEMENT.csv",
+      "size_bytes": 150905,
+      "sha256": "c4e18fa5025037a1f9e710a0264ec5594e5b5361ecdc05f638e4328a890641d0"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/scripts/finalize_formal_analysis.py",
+      "size_bytes": 16979,
+      "sha256": "17d33101b5e3db7d4ac938a24afbe6e31052fe35d336723df4af3c3a38ab316d"
+    },
+    {
+      "path": "formal_study1_98_analysis_v1/scripts/run_formal_analysis.py",
+      "size_bytes": 17016,
+      "sha256": "6dc0eed342f3c92924223196235af55bd092e25f36b3216cea371fe13dfd107e"
+    },
+    {
+      "path": "formal_study1_98_execution_adapter_v1_1/FORMAL_SOURCE_SAMPLE_98_V1_1.csv",
+      "size_bytes": 25583,
+      "sha256": "a918d9b17c7601d7b6775992a62d0e8f26330118c8bceb63c23b7f9341516059"
+    },
+    {
+      "path": "formal_study1_98_execution_adapter_v1_1/FORMAL_TREATMENT_ORDER_V1_1.csv",
+      "size_bytes": 1523,
+      "sha256": "844fb96ea28c4b549bea851a055963ef09bc1423887186af3b7d7c7202c35083"
+    },
+    {
+      "path": "PROVENANCE_MANIFEST.json",
+      "size_bytes": 41711,
+      "sha256": "4fc9fc4a5f26365abd336357240df93a0ec793016238f2db693b42ac18f48c7f"
+    },
+    {
+      "path": "PUBLISHED_BENCHMARK_REPRODUCTION/04_05_RANK_BIN_PAPER_ALIGNED_ALL.csv",
+      "size_bytes": 4555,
+      "sha256": "2ddd767470844a6ba83fb4fa13cf153918cafaa34c57006558b8ae9d93359015"
+    },
+    {
+      "path": "PUBLISHED_BENCHMARK_REPRODUCTION/04_DEEPSEEK98_PAPER_ALIGNED_BENCHMARK.csv",
+      "size_bytes": 1378,
+      "sha256": "20fc6d9c47fe58bb3d53317e0648234aa56d1fbdf9d3a2c6668f20ed1c5ca654"
+    },
+    {
+      "path": "PUBLISHED_BENCHMARK_REPRODUCTION/05_QWEN98_PAPER_ALIGNED_BENCHMARK.csv",
+      "size_bytes": 1364,
+      "sha256": "10473b2b39728166b7f6fbe001983de40f000b7bbebdc7fc2295207aa9fb79d6"
+    },
+    {
+      "path": "PUBLISHED_BENCHMARK_REPRODUCTION/build_reproduction_package.py",
+      "size_bytes": 32168,
+      "sha256": "fa3483ee6902d57c3c852cae3a9a013e56eef25e8631aaf5d51dc41a53c3d942"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 12149,
+      "sha256": "5e218416ef60fa9a9a9e52c11e93426f21cf6e8e1328cc7dfee25c56ee358d0f"
+    },
+    {
+      "path": "SANITIZATION_REPORT.json",
+      "size_bytes": 1559,
+      "sha256": "c7d86818c827cdbf860aa97e9780f23cf5f04fec09606ec2969c44f706ad01a8"
+    },
+    {
+      "path": "validate_release.py",
+      "size_bytes": 9763,
+      "sha256": "5b2627f1a51c8e5ac8e9bf92633e2bc56ef6a14ed4d1491580ad63ce47950d59"
+    },
+    {
+      "path": "VALIDATION_REPORT.json",
+      "size_bytes": 1617,
+      "sha256": "de819d3c604fc5be1dbcf17f69aa7b3e01e94147c73b2635450b2391ee1c8ea5"
+    }
+  ]
+}
